@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@300&display=swap');
+body,
+p {
+    justify-self: center;
+}
+
+h2 {
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 100px;
+}
+
+.submit-button {
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+}
+
+.row {
+    content: "";
+    display: flex;
+    justify-content: center;
+}
+
+.column {
+    display: grid;
+    float: left;
+    width: 100%;
+    padding: 50px;
+    justify-content: center;
+}
